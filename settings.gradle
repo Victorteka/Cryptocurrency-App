@@ -8,3 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CrytocurrencyApp"
 include ':app'
+include ':domain'
+include ':data'
+include ':core'

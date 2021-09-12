@@ -1,4 +1,4 @@
-package com.victorteka.crytocurrencyapp
+package com.victorteka.cryptocurrencyapp.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,13 +8,13 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.victorteka.crytocurrencyapp.ui.theme.CrytocurrencyAppTheme
+import com.victorteka.cryptocurrencyapp.ui.theme.CryptocurrencyAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            CrytocurrencyAppTheme {
+            CryptocurrencyAppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     Greeting("Android")
@@ -32,7 +32,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    CrytocurrencyAppTheme {
+    CryptocurrencyAppTheme() {
         Greeting("Android")
     }
 }

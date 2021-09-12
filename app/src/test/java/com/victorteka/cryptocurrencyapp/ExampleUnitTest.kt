@@ -1,4 +1,4 @@
-package com.victorteka.crytocurrencyapp
+package com.victorteka.cryptocurrencyapp
 
 import org.junit.Test
 

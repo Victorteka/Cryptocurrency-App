@@ -1,4 +1,4 @@
-package com.victorteka.crytocurrencyapp.ui.theme
+package com.victorteka.cryptocurrencyapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

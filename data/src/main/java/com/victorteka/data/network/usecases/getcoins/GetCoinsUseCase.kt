@@ -1,4 +1,4 @@
-package com.victorteka.domain.usecases.getcoins
+package com.victorteka.data.network.usecases.getcoins
 
 import com.victorteka.domain.models.Coin
 import com.victorteka.domain.repository.CoinRepository
@@ -6,8 +6,9 @@ import com.victorteka.domain.utils.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import java.io.IOException
+import javax.inject.Inject
 
-class GetCoinsUseCase(private val repository: CoinRepository) {
+class GetCoinsUseCase @Inject constructor(private val repository: CoinRepository) {
 
     operator fun invoke(): Flow<Resource<List<Coin>>> = flow {
         try {

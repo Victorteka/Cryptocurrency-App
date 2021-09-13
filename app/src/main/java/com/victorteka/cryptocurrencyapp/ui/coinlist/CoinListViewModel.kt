@@ -4,7 +4,7 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.victorteka.domain.usecases.getcoins.GetCoinsUseCase
+import com.victorteka.data.network.usecases.getcoins.GetCoinsUseCase
 import com.victorteka.domain.utils.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn

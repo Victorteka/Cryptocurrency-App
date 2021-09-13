@@ -1,4 +1,8 @@
 package com.victorteka.cryptocurrencyapp
 
-class CryptocurrencyApp {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class CryptocurrencyApp: Application() {
 }
